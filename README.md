@@ -147,27 +147,3 @@ src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif"/>
 </div>
 
 ---
-
-## 🛠️ What I'm Currently Working On
-
-```c
-/* Ayan Kamaria - Embedded Systems Developer */
-
-#include "LPC214x.h"
-#include "uart.h"
-#include "i2c.h"
-
-int main(void) {
-
-    GPIO_Init();        /* ✅ Completed  */
-    UART_Init(9600);    /* ✅ Completed  */
-    SPI_Init();         /* ✅ Completed  */
-    I2C_Init();         /* ✅ Completed  */
-    CAN_Init();         /* 🔄 Learning  */
-    RTOS_Init();        /* 🔄 Exploring */
-    Cloud_Connect();    /* 🌐 IoT Work  */
-
-    while(1) {
-        Build_Cool_Embedded_Projects(); /* 🚀 Always  */
-    }
-}
